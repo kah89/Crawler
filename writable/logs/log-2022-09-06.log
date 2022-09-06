@@ -1,0 +1,119 @@
+CRITICAL - 2022-09-06 09:44:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Devnology\app\Views\pages\edit_article.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\Devnology\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Devnology\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Devnology\system\Common.php(1089): CodeIgniter\View\View->render('pages/edit_arti...', Array, true)
+#4 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(82): view('pages/edit_arti...', Array)
+#5 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->editArticle('static', 'js', 'jquery.js')
+#6 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-06 09:56:21 --> Undefined variable: _SESSION
+#0 C:\xampp\htdocs\Devnology\app\Views\pages\list_article.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\Devnology\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Devnology\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Devnology\system\Common.php(1089): CodeIgniter\View\View->render('pages/list_arti...', Array, true)
+#4 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(102): view('pages/list_arti...', Array)
+#5 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->listArticle()
+#6 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-06 09:57:10 --> Undefined variable: _SESSION
+#0 C:\xampp\htdocs\Devnology\app\Views\pages\list_article.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\Devnology\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Devnology\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Devnology\system\Common.php(1089): CodeIgniter\View\View->render('pages/list_arti...', Array, true)
+#4 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(102): view('pages/list_arti...', Array)
+#5 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->listArticle()
+#6 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-06 09:59:27 --> Undefined variable: _SESSION
+#0 C:\xampp\htdocs\Devnology\app\Views\pages\list_article.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\Devnology\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Devnology\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Devnology\system\Common.php(1089): CodeIgniter\View\View->render('pages/list_arti...', Array, true)
+#4 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(102): view('pages/list_arti...', Array)
+#5 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->listArticle()
+#6 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-06 09:59:50 --> First array member is not a valid class name or object
+#0 C:\xampp\htdocs\Devnology\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Devnology\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Devnology\system\Common.php(1089): CodeIgniter\View\View->render('pages/list_arti...', Array, true)
+#3 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(102): view('pages/list_arti...', Array)
+#4 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->listArticle()
+#5 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#6 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-09-06 10:02:42 --> Undefined index: USUARIO_ID
+#0 C:\xampp\htdocs\Devnology\app\Views\pages\list_article.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\Devnology\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Devnology\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Devnology\system\Common.php(1089): CodeIgniter\View\View->render('pages/list_arti...', Array, true)
+#4 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(102): view('pages/list_arti...', Array)
+#5 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->listArticle()
+#6 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-06 10:03:11 --> Undefined variable: _SESSION
+#0 C:\xampp\htdocs\Devnology\app\Views\pages\list_article.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\Devnology\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Devnology\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Devnology\system\Common.php(1089): CodeIgniter\View\View->render('pages/list_arti...', Array, true)
+#4 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(102): view('pages/list_arti...', Array)
+#5 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->listArticle()
+#6 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-06 10:11:16 --> syntax error, unexpected '$model' (T_VARIABLE)
+#0 C:\xampp\htdocs\Devnology\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/article/listAr...')
+#1 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('/article/listAr...')
+#2 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-06 10:11:31 --> Undefined index: USUARIO_ID
+#0 C:\xampp\htdocs\Devnology\app\Views\pages\list_article.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\Devnology\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Devnology\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Devnology\system\Common.php(1089): CodeIgniter\View\View->render('pages/list_arti...', Array, true)
+#4 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(102): view('pages/list_arti...', Array)
+#5 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->listArticle()
+#6 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-09-06 10:13:07 --> Undefined index: USUARIO_ID
+#0 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->listArticle()
+#2 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#3 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-06 10:13:29 --> Undefined index: USUARIO_ID
+#0 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->listArticle()
+#2 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#3 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-06 10:17:20 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Devnology\app\Views\pages\edit_article.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\Devnology\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Devnology\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Devnology\system\Common.php(1089): CodeIgniter\View\View->render('pages/edit_arti...', Array, true)
+#4 C:\xampp\htdocs\Devnology\app\Controllers\Article.php(82): view('pages/edit_arti...', Array)
+#5 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(832): App\Controllers\Article->editArticle('static', 'js', 'jquery.js')
+#6 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 C:\xampp\htdocs\Devnology\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Devnology\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
